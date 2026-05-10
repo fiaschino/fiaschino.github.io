@@ -19,13 +19,22 @@
 		<link rel="alternate" hreflang="it" href="https://fiaschino.github.io/it/" />
 		<link rel="alternate" hreflang="nl" href="https://fiaschino.github.io/nl/" />
 		<link rel="alternate" hreflang="x-default" href="https://fiaschino.github.io/" />
-		<style>
-			.lang-switcher { margin-top: 1.25em; font-size: 0.8em; letter-spacing: 0.1em; text-transform: uppercase; }
-			.lang-switcher a, .lang-switcher span { margin: 0 0.4em; }
-			.lang-switcher .current { font-weight: bold; opacity: 0.7; }
-		</style>
 	</head>
 	<body class="is-preload">
+
+		<!-- Language dropdown -->
+			<details class="lang-dropdown">
+				<summary aria-label="Kies taal">
+					<span class="flag" aria-hidden="true">&#127475;&#127473;</span>
+					<span class="code">NL</span>
+					<span class="caret" aria-hidden="true">&#9662;</span>
+				</summary>
+				<ul role="listbox">
+					<li><a href="/" hreflang="en"><span class="flag" aria-hidden="true">&#127468;&#127463;</span> English</a></li>
+					<li><a href="/it/" hreflang="it"><span class="flag" aria-hidden="true">&#127470;&#127481;</span> Italiano</a></li>
+					<li><span class="current"><span class="flag" aria-hidden="true">&#127475;&#127473;</span> Nederlands</span></li>
+				</ul>
+			</details>
 
 		<!-- Header -->
 			<header id="header">
@@ -46,11 +55,6 @@
 							document.getElementById('age').textContent = age;
 						})();
 					</script>
-					<nav class="lang-switcher">
-						<a href="/" hreflang="en">EN</a>
-						<a href="/it/" hreflang="it">IT</a>
-						<span class="current">NL</span>
-					</nav>
 				</div>
 			</header>
 
