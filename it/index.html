@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="it">
+	<head>
+		<title>A. Fiaschi</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="[TRANSLATE: Andrea Fiaschi — PhD candidate in Chemical Engineering based in the Netherlands.]" />
+		<meta property="og:title" content="Andrea Fiaschi" />
+		<meta property="og:description" content="[TRANSLATE: PhD candidate in Chemical Engineering based in the Netherlands.]" />
+		<meta property="og:image" content="https://fiaschino.github.io/images/avatar.jpg" />
+		<link rel="icon" href="../images/avatar.jpg" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="alternate" hreflang="en" href="https://fiaschino.github.io/" />
+		<link rel="alternate" hreflang="it" href="https://fiaschino.github.io/it/" />
+		<link rel="alternate" hreflang="nl" href="https://fiaschino.github.io/nl/" />
+		<link rel="alternate" hreflang="x-default" href="https://fiaschino.github.io/" />
+		<style>
+			.lang-switcher { margin-top: 1.25em; font-size: 0.8em; letter-spacing: 0.1em; text-transform: uppercase; }
+			.lang-switcher a, .lang-switcher span { margin: 0 0.4em; }
+			.lang-switcher .current { font-weight: bold; opacity: 0.7; }
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="../images/avatar.jpg" alt="" /></a>
+					<h1><strong>[TRANSLATE: I am Andrea]</strong>, [TRANSLATE: a] <span id="age"></span> [TRANSLATE: years old] <br />
+					[TRANSLATE: PhD candidate in Chemical Engineering based in the Netherlands] <br />
+					<script>
+						(() => {
+							const birthDate = new Date('1999-12-20');
+							const today = new Date();
+							let age = today.getFullYear() - birthDate.getFullYear();
+							const hasHadBirthday =
+								today.getMonth() > birthDate.getMonth() ||
+								(today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate());
+
+							if (!hasHadBirthday) age -= 1;
+							document.getElementById('age').textContent = age;
+						})();
+					</script>
+					<nav class="lang-switcher">
+						<a href="/" hreflang="en">EN</a>
+						<span class="current">IT</span>
+						<a href="/nl/" hreflang="nl">NL</a>
+					</nav>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>[TRANSLATE: Welcome to my portfolio!]</h2>
+						</header>
+						<p>[TRANSLATE: I am a Chemical Engineer currently pursuing a PhD in Chemical Engineering, based in the Netherlands. I am doing experiments and simulation on high temperature fluidization of iron oxide powders employed as energy carriers (Metal Fuel cycle).]</p>
+						<p>[TRANSLATE: I am passionate about science and engineering, and I am always eager to learn new things and to share my knowledge with others. I like to code and apply my skills in also other fields.]</p>
+						<p>[TRANSLATE: In my freetime I like to learn Dutch (at least I try), read, take pictures and do physical training.]</p>
+						<ul class="actions">
+							<li><a href="https://github.com/fiaschino" class="button">[TRANSLATE: Learn More]</a></li>
+						</ul>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>[TRANSLATE: Projects]</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://github.com/fiaschino/cpp_exercises" class="image fit thumb"><img src="../images/fulls/matrix-code.gif" alt="" /></a>
+								<h3>[TRANSLATE: C++ learning]</h3>
+								<p>[TRANSLATE: Repository with basic exercises and explanation of C++]</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://github.com/fiaschino/dutch" class="image fit thumb"><img src="../images/fulls/dutch-flag.gif" alt="" /></a>
+								<h3>[TRANSLATE: Dutch]</h3>
+								<p>[TRANSLATE: Repository to learn Dutch!]</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../images/fulls/04.jpg" class="image fit thumb"><img src="../images/thumbs/04.jpg" alt="" /></a>
+								<h3>[TRANSLATE: Fluidized bed]</h3>
+								<p>[TRANSLATE: Click here if you want to know more about fluidized bed]</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../images/fulls/03.jpg" class="image fit thumb"><img src="../images/thumbs/03.jpg" alt="" /></a>
+								<h3>[TRANSLATE: Cool pictures I took]</h3>
+								<p>[TRANSLATE: Click here to see some cool pictures]</p>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="https://github.com/fiaschino" class="button">[TRANSLATE: Full Portfolio]</a></li>
+						</ul>
+					</section>
+
+				<!-- Three -->
+					<section id="three">
+						<h2>[TRANSLATE: Get In Touch]</h2>
+						<p>[TRANSLATE: Fill the form below if you want to get in touch]</p>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="[TRANSLATE: Name]" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="[TRANSLATE: Email]" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="[TRANSLATE: Message]" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="[TRANSLATE: Send Message]" /></li>
+								</ul>
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">[TRANSLATE: Email]</span></h3>
+										<a href="mailto:andreafiaschi99@gmail.com">andreafiaschi99@gmail.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/andrea-fiaschi-20d1999/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/fiaschino" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:andreafiaschi99@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy;Andrea Fiaschi</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
