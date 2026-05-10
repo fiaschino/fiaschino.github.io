@@ -2675,8 +2675,11 @@ input, select, textarea {
 		.lang-dropdown summary::marker { content: ""; }
 
 		.lang-dropdown .flag {
-			font-size: 1.4em;
-			line-height: 1;
+			display: block;
+			width: 1.6em;
+			height: auto;
+			border-radius: 2px;
+			box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
 		}
 
 		.lang-dropdown ul {
